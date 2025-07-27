@@ -11,6 +11,11 @@
     />
     <link
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <link
+      rel="stylesheet"
       href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
     />
     <script
@@ -18,6 +23,7 @@
       integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK"
       crossorigin="anonymous"
     ></script>
+
     <link rel="stylesheet" href="src/styles.css" />
     <title>My Portfolio</title>
   </head>
@@ -28,12 +34,11 @@
           <a href="/"
             ><img src="images/logo2.png" class="img-fluid logo" alt="logo"
           /></a>
-          <span><button class="btn">Theme</button></span>
         </div>
         <div class="d-flex justify-content-between mt-3 links">
           <div>
             <span><a href="/" target="_blank">Home</a></span>
-            <span><a href="/" target="_blank">About me</a></span>
+            <span><a href="/" target="_blank">About</a></span>
             <span><a href="projects.html" target="_blank">Projects</a></span>
             <span><a href="/" target="_blank">CV</a></span>
             <span><a href="/" target="_blank">contact</a></span>
@@ -44,18 +49,21 @@
         <h2>Hi,</h2>
         <h1>Mahdia Khamoosh</h1>
         <h3>Front-end developer based on Kabul, Afghanistan</h3>
+        <div class="about-me mt-5">
+          <a href="about.html" target="_blank">About me</a>
+        </div>
       </header>
       <main>
         <section class="first-section-fluid">
           <div class="row g-5">
-            <div class="col-6">
+            <div class="col-md-6">
               <img
                 src="images/Screen Shot 2025-07-27 at 2.16.35 PM.png"
                 alt="weather-app"
                 class="img-fluid"
               />
             </div>
-            <div class="col-6">
+            <div class="col-md-6">
               <h2>Vanilla Weather App</h2>
               <p class="mt-3 mb-5">
                 I built a Vanilla JavaScript weather app in SheCodes Plus, an
@@ -67,7 +75,7 @@
               </p>
               <a href="projects.html" target="_blank">Learn More</a>
             </div>
-            <div class="col-6">
+            <div class="col-md-6">
               <h2>Clock App</h2>
               <p class="mt-3 mb-5">
                 This Clock Application is built using HTML, CSS, JavaScript, and
@@ -79,21 +87,21 @@
               </p>
               <a href="projects.html" target="_blank">Learn More</a>
             </div>
-            <div class="col-6">
+            <div class="col-md-6">
               <img
                 src="images/Screen Shot 2025-07-27 at 2.22.29 PM.png"
                 class="img-fluid"
                 alt="clock-app"
               />
             </div>
-            <div class="col-6">
+            <div class="col-md-6">
               <img
                 src="images/Screen Shot 2025-07-27 at 2.23.54 PM.png"
                 alt="ai-poem-generator"
                 class="img-fluid"
               />
             </div>
-            <div class="col-6">
+            <div class="col-md-6">
               <h2>AI Poem Generator App</h2>
               <p class="mt-3 mb-5">
                 The AI Poem Generator is a creative web application that uses
@@ -106,7 +114,7 @@
               </p>
               <a href="projects.html" target="_blank">Learn More</a>
             </div>
-            <div class="col-6">
+            <div class="col-md-6">
               <h2>React Weather App</h2>
               <p class="mt-3 mb-5">
                 I created a responsive Weather App using React and
@@ -121,7 +129,7 @@
               </p>
               <a href="projects.html" target="_blank">Learn More</a>
             </div>
-            <div class="col-6">
+            <div class="col-md-6">
               <img
                 src="images/Screen Shot 2025-07-27 at 2.27.21 PM.png"
                 alt="react-weather-app"
@@ -132,7 +140,38 @@
         </section>
       </main>
     </div>
-
+    <footer>
+      <div class="email text-center mb-5">
+        <a href="mailto:fosoonryan601@gmail.com">fosoonryan601@gmail.com</a>
+      </div>
+      <div class="d-flex justify-content-center text-center contact-links">
+        <div>
+          <a href="https://github.com/Mahdia-123" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </div>
+        <div>
+          <a
+            href="https://www.linkedin.com/in/mahdia-khamoosh-a2abb9364"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </div>
+        <div>
+          <a href="mailto:fosoonryan601@gmail.com" target="_blank">
+            <i class="fa-regular fa-envelope"></i
+          ></a>
+        </div>
+      </div>
+      <p class="mt-5">
+        This website is coded by Mahdia Khamoosh and is
+        <span
+          ><a href="https://github.com/Mahdia-123/mahdia-khamoosh-portfolio"
+            >open-sourced</a
+          ></span
+        >
+      </p>
+    </footer>
     <script src="src/script.js"></script>
   </body>
 </html>
