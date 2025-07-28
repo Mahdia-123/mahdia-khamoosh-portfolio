@@ -171,6 +171,9 @@ footer span a:hover {
     font-size: 12px;
     margin-left: 10px;
   }
+  .nav-bar {
+    padding: 0 16px;
+  }
   .first-section-fluid h2 {
     font-size: 25px;
   }
