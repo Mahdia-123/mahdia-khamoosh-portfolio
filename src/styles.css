@@ -35,6 +35,7 @@ body {
 .links a:hover {
   color: #faad39;
 }
+
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("../images/pexels-paras-4218883.jpg");
@@ -117,7 +118,7 @@ header .about-me a:hover {
 }
 footer {
   max-width: 1076px;
-  padding: 80px 50px;
+  padding: 30px 50px;
   margin: 0 auto;
   background: #faad39;
   border: #18161d solid 1px;

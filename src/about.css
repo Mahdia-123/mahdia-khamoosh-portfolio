@@ -1,0 +1,123 @@
+body {
+  font-family: "PT Mono", monospace;
+  margin: 0 auto;
+  background: #28272b;
+}
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+.about-section-fluid {
+  padding: 80px 150px;
+  color: white;
+}
+.about-section-fluid h1 {
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 1.5;
+}
+.about-section-fluid h3 {
+  font-size: 25px;
+}
+.about-section-fluid p {
+  font-family: roboto;
+  font-size: 16px;
+  line-height: 2;
+}
+.about-section-fluid a {
+  text-decoration: none;
+  color: #ef7537;
+  font-size: 16px;
+  font-weight: bold;
+  transition: all 200ms ease-in-out;
+  line-height: 1.5;
+  border: 1px solid #ef7537;
+  padding: 20px 40px;
+  border-radius: 8px;
+  background: rgba(239, 117, 55, 0.2);
+  backdrop-filter: blur(10px);
+}
+.about-section-fluid a:hover {
+  color: #faad39;
+  border: 1px solid #faad39;
+}
+
+.grid {
+  display: grid;
+}
+.grid-2-columns {
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 60px;
+}
+.img-fluid {
+  border: none;
+  border-radius: 20px;
+  height: 500px;
+  width: 400px;
+}
+.nav-bar {
+  width: 100%;
+  padding: 0 50px;
+  background-color: #18161d;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.logo {
+  height: 60px;
+  width: 80px;
+}
+
+.links a {
+  text-decoration: none;
+  color: #ef7537;
+  font-size: 16px;
+  font-weight: bolder;
+  margin-left: 10px;
+  letter-spacing: 1px;
+  transition: all 200ms ease-in-out;
+  line-height: 1.5;
+}
+
+.links a:hover {
+  color: #faad39;
+}
+footer {
+  padding: 30px 50px;
+  margin: 0 auto;
+  background: #18161d;
+}
+footer .email a {
+  line-height: 1.5;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bolder;
+  color: #ef7537;
+  transition: all 200ms ease-in-out;
+}
+footer .email a:hover {
+  color: #faad39;
+  text-shadow: 2px 2px 6px rgba(240, 237, 233, 0.776);
+}
+.contact-links a {
+  margin-left: 30px;
+  font-size: 40px;
+  color: #ef7537;
+  text-decoration: none;
+}
+.contact-links a:hover {
+  color: #faad39;
+  text-shadow: 2px 2px 6px rgba(240, 237, 233, 0.776);
+}
+footer p {
+  text-align: center;
+  color: #ef7537;
+  font-weight: bold;
+}
+footer span a {
+  color: #ef7537;
+  transition: all 200ms ease-in-out;
+}
+footer span a:hover {
+  color: #faad39;
+}
