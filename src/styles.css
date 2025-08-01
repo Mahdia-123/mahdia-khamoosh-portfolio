@@ -114,6 +114,16 @@ header .about-me a:hover {
   color: #faad39;
   border: 1px solid #ef7537;
 }
+.contact-links a {
+  margin-left: 30px;
+  font-size: 40px;
+  color: #18161d;
+  text-decoration: none;
+}
+.contact-links a:hover {
+  color: #ef7537;
+  text-shadow: 2px 2px 6px rgba(78, 76, 76, 0.5);
+}
 footer {
   padding: 30px 50px;
   margin: 0 auto;
@@ -132,16 +142,7 @@ footer .email a:hover {
   color: #ef7537;
   text-shadow: 2px 2px 6px rgba(78, 76, 76, 0.5);
 }
-.contact-links a {
-  margin-left: 30px;
-  font-size: 40px;
-  color: #18161d;
-  text-decoration: none;
-}
-.contact-links a:hover {
-  color: #ef7537;
-  text-shadow: 2px 2px 6px rgba(78, 76, 76, 0.5);
-}
+
 footer p {
   text-align: center;
   color: #18161d;
