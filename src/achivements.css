@@ -15,8 +15,6 @@ body {
 }
 .navbar a {
   color: #ef7537;
-
-  transition: 200ms all ease-in-out;
 }
 .navbar a:hover {
   color: #ffc108;
@@ -144,9 +142,7 @@ footer span a:hover {
     max-width: 100%;
     height: auto;
   }
-  .nav-bar {
-    padding: 0 16px;
-  }
+
   .cv {
     font-size: 20px;
   }
