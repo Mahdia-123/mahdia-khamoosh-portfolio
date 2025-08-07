@@ -60,7 +60,9 @@ body {
   height: 500px;
   width: 400px;
 }
-
+.navbar-toggler {
+  background-color: #ef7537;
+}
 .navbar {
   background: #18161d;
 }
@@ -146,13 +148,12 @@ footer span a:hover {
   .about-section-fluid h3 {
     font-size: 20px;
   }
-  .links a {
-    font-size: 10px;
-    margin-left: 10px;
+  .about-section-fluid a {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
   }
-  .nav-bar {
-    padding: 0 16px;
-  }
+
   .img-fluid {
     width: 100%;
     height: auto;

@@ -7,6 +7,9 @@ body {
   margin: 0;
   padding: 0;
 }
+.navbar-toggler {
+  background-color: #ef7537;
+}
 .navbar {
   background: #18161d;
 }
@@ -137,12 +140,6 @@ footer span a:hover {
     padding: 10px 20px;
   }
 
-  .links a {
-    font-size: 10px;
-  }
-  .nav-bar {
-    padding: 0 16px;
-  }
   .small-image {
     max-width: 100%;
     height: auto;

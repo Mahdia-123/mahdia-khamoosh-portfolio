@@ -7,6 +7,27 @@ body {
   margin: 0;
   padding: 0;
 }
+.projects-section-fluid a {
+  text-decoration: none;
+  color: #ef7537;
+  font-size: 16px;
+  font-weight: bold;
+  transition: all 200ms ease-in-out;
+  line-height: 1.5;
+  border: 1px solid #ef7537;
+  padding: 20px 40px;
+  border-radius: 8px;
+  background: rgba(239, 117, 55, 0.2);
+  backdrop-filter: blur(10px);
+  display: inline-block;
+}
+.projects-section-fluid a:hover {
+  color: #faad39;
+  border: 1px solid #faad39;
+}
+.navbar-toggler {
+  background-color: #ef7537;
+}
 .navbar {
   background: #18161d;
 }
@@ -25,7 +46,7 @@ body {
 .projects-section-fluid {
   color: white;
   padding: 30px 80px;
-  margin-top: 50px;
+  margin-top: 60px;
 }
 .projects-section-fluid h1 {
   font-size: 50px;
@@ -92,25 +113,15 @@ footer span a:hover {
     grid-template-columns: 1fr;
     grid-gap: none;
   }
-  h1 {
-    font-size: 50px;
-  }
 
   .projects-section-fluid {
     padding: 20px 20px;
   }
   .projects-section-fluid h1 {
-    font-size: 40px;
+    font-size: 30px;
   }
   .projects-section-fluid h3 {
     font-size: 20px;
-  }
-  .links a {
-    font-size: 10px;
-    margin-left: 10px;
-  }
-  .nav-bar {
-    padding: 0 16px;
   }
 
   .project {
@@ -126,5 +137,10 @@ footer span a:hover {
   }
   footer p {
     font-size: 14px;
+  }
+  .projects-section-fluid a {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
   }
 }

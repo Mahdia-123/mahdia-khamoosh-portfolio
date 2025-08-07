@@ -6,6 +6,9 @@ body {
   margin: 0;
   padding: 0;
 }
+.navbar-toggler {
+  background-color: #ef7537;
+}
 .navbar {
   background: #18161d;
 }
@@ -153,19 +156,23 @@ footer span a:hover {
   header h3 {
     font-size: 20px;
   }
-
-  .links a {
-    font-size: 10px;
-    margin-left: 10px;
-  }
-  .nav-bar {
-    padding: 0 16px;
+  .first-section-fluid a {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
   }
   .first-section-fluid h2 {
+    font-size: 25px;
+    text-align: center;
+  }
+  .first-section-fluid h3 {
     font-size: 25px;
   }
   .first-section-fluid p {
     font-size: 14px;
+  }
+  .first-section-fluid {
+    padding: 15px;
   }
 
   footer .email a {
