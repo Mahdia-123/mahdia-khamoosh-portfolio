@@ -7,54 +7,25 @@ body {
   margin: 0;
   padding: 0;
 }
-.projects-section-fluid a {
-  text-decoration: none;
+.navbar {
+  background: #18161d;
+}
+.navbar a {
   color: #ef7537;
-  font-size: 16px;
-  font-weight: bold;
-  transition: all 200ms ease-in-out;
-  line-height: 1.5;
-  border: 1px solid #ef7537;
-  padding: 20px 40px;
-  border-radius: 8px;
-  background: rgba(239, 117, 55, 0.2);
-  backdrop-filter: blur(10px);
-  display: inline-block;
+
+  transition: 200ms all ease-in-out;
 }
-.projects-section-fluid a:hover {
-  color: #faad39;
-  border: 1px solid #faad39;
-}
-.nav-bar {
-  width: 100%;
-  padding: 0 50px;
-  background-color: #18161d;
-  position: sticky;
-  top: 0;
-  z-index: 999;
+.navbar a:hover {
+  color: #ffc108;
 }
 .logo {
-  height: 60px;
-  width: 80px;
-}
-
-.links a {
-  text-decoration: none;
-  color: #ef7537;
-  font-size: 16px;
-  font-weight: bolder;
-  margin-left: 10px;
-  letter-spacing: 1px;
-  transition: all 200ms ease-in-out;
-  line-height: 1.5;
-}
-
-.links a:hover {
-  color: #faad39;
+  height: 40px;
+  width: 90px;
 }
 .projects-section-fluid {
   color: white;
   padding: 30px 80px;
+  margin-top: 50px;
 }
 .projects-section-fluid h1 {
   font-size: 50px;
@@ -121,9 +92,8 @@ footer span a:hover {
     grid-template-columns: 1fr;
     grid-gap: none;
   }
-
-  .logo {
-    display: none;
+  h1 {
+    font-size: 50px;
   }
 
   .projects-section-fluid {

@@ -7,32 +7,20 @@ body {
   margin: 0;
   padding: 0;
 }
-.nav-bar {
-  width: 100%;
-  padding: 0 50px;
-  background-color: #18161d;
-  position: sticky;
-  top: 0;
-  z-index: 999;
+.navbar {
+  background: #18161d;
+}
+.navbar a {
+  color: #ef7537;
+
+  transition: 200ms all ease-in-out;
+}
+.navbar a:hover {
+  color: #ffc108;
 }
 .logo {
-  height: 60px;
-  width: 80px;
-}
-
-.links a {
-  text-decoration: none;
-  color: #ef7537;
-  font-size: 16px;
-  font-weight: bolder;
-  margin-left: 10px;
-  letter-spacing: 1px;
-  transition: all 200ms ease-in-out;
-  line-height: 1.5;
-}
-
-.links a:hover {
-  color: #faad39;
+  height: 40px;
+  width: 90px;
 }
 .contact-section {
   color: white;
@@ -96,9 +84,6 @@ body {
   margin: 0 auto;
 }
 @media (max-width: 960px) {
-  .logo {
-    display: none;
-  }
   .links a {
     font-size: 10px;
   }
@@ -107,5 +92,6 @@ body {
   }
   .contact-section {
     padding: 0 10px;
+    margin-top: 100px !important;
   }
 }
